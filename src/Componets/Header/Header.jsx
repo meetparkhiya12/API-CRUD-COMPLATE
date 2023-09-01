@@ -42,6 +42,8 @@ function Header() {
 
           </Link></li>
           <li><Link to='/gita'>Bhagavat Gita</Link> </li>
+          <li><Link to='/singUp'><i class="fa-solid fa-user"></i>
+          </Link></li>
 
       
 

@@ -6,6 +6,7 @@ import Student from "./Componets/Student/Student.jsx"
 import ViewStudent from "./Componets/ViewStudent/viewstudent.jsx"
 import Gita from "./Componets/Gita/Gita.jsx"
 import Edit from "./Componets/Edit/Edit.jsx"
+import SingUp from "./Componets/SingUp/SingUp.jsx"
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route path="/view" element={<ViewStudent/>}></Route>
       <Route path="/edit" element={<Edit/>}></Route>
       <Route path="/gita" element={<Gita/>}></Route>
+      <Route path="/singUp" element={<SingUp/>} ></Route>
 
 
     </Routes>

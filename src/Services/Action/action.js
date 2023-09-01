@@ -1,7 +1,11 @@
 import axios from "axios"
 import { base_api } from "../../../Base_API/Base_API"
+import app from "../MyFireBase/myfirebase";
+import { getAuth } from "firebase/auth";
 
 
+
+const auth = getAuth(app);
 
 export const AddStudent = (data) => {
 
